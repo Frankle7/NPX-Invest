@@ -1,0 +1,64 @@
+.titulo h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    color: #277DB3;
+}
+
+.titulo h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: #277DB3;
+}
+
+.img_texts {
+    width: 100%;
+    padding: 0 3rem 0 1rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.funcionalidade {
+    width: 40%;
+    font-family: 'Orienta', sans-serif;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    color: #277DB3;
+}
+
+.funcionalidade h3 {
+    font-size: 30px;
+}
+
+.funcionalidade h4 {
+    width: 70%;
+    font-size: 19.5px;
+    font-weight: 500;
+}
+
+.bttn {
+    width: 8rem;
+    padding: 10px;
+    text-align: center;
+    background: #0B0323;
+    color: rgb(240, 240, 240);
+    border-radius: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.bttn:hover {
+    transition: all 0.5s;
+    color: #ffffff;
+    background-color: #37276d;
+}

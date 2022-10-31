@@ -1,0 +1,101 @@
+.rodape {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #0B0323;
+    font-family: 'Orienta', sans-serif;
+
+}
+.containerRodape{
+    width: 100%;
+}
+.coluna1 {
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+justify-items: center;}
+
+.cx_txts {
+    width: 13rem;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #482F94;
+    display: flex;
+}
+
+.cx_txts p {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.cx_txts img {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.img_logos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.Redes_Sociais img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 19px;
+    padding: 10px;
+    text-align: center;
+}
+
+.coluna2 {
+    justify-content: center;
+    width: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h4 {
+    width: 15.5rem;
+    font-size: 16px;
+}
+
+.txt {
+    width: 11rem;
+    text-align: center;
+    color: #0B0323;
+
+}
+
+.txt span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.img_Danwloands {
+    padding: 10px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.consideracao{
+    width: 90%;
+    border-top: 2px solid #05A4DE ;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.consideracao p{
+    margin: 5px;
+font-size: 15px;
+}

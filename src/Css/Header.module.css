@@ -1,0 +1,72 @@
+header {
+    background-color: #0B0323;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    font-family: 'Orienta', sans-serif;
+}
+
+.logo_npx {
+    width: 203.35px;
+    height: 52.62px;
+}
+
+.logo_npx img {
+    width: 100%;
+    height: 100%;
+}
+
+/* **********nav_header************ */
+
+.navHeader {
+    width: 60%;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+label {
+    padding-right: 1rem;
+}
+
+.acessar {
+    background: rgba(230, 231, 232, 0.2);
+    border: 1px solid #05A4DE;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.acessar:hover {
+    background: #05A4DE;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+}
+
+.InputAg {
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 8px;
+}
+
+.navHeader p {
+    text-decoration: none;
+    color: white;
+}
+
+.agencia {
+    display: flex;
+    align-items: center;
+}
+
+.cxSelecao label {
+    padding-left: 8px;
+}

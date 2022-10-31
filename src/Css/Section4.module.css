@@ -1,0 +1,43 @@
+.Section4 {
+    width: 100%;
+    margin-top: 1rem;
+    background-image: url(../Img/bkd4.png);
+    height: 614px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7.5rem;
+    align-items: center;
+    font-family: 'Orienta', sans-serif;
+}
+
+.Section4 img {
+    height: 30rem;
+}
+
+.txts_esq {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.txts_esq h1 {
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+}
+
+.txts_esq p {
+    width: 28rem;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.txts_esq button {
+    width: 40%;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    background: #272734;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 16px;
+}
